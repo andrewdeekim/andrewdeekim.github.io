@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>andrew kim</title>
     <link>https://andrewdeekim.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on andrew kim</description>
+    <image>
+      <title>andrew kim</title>
+      <url>https://andrewdeekim.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewdeekim.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Mon, 22 Jan 2024 14:39:47 -0800</lastBuildDate>
     <atom:link href="https://andrewdeekim.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -21,6 +26,13 @@
       <pubDate>Fri, 27 Oct 2023 18:08:42 -0400</pubDate>
       <guid>https://andrewdeekim.github.io/projects/bikeshare-in-chicago-case-study/</guid>
       <description>data analytics, Spreadsheets, R, Tableau</description>
+    </item>
+    <item>
+      <title>Example</title>
+      <link>https://andrewdeekim.github.io/posts/example/</link>
+      <pubDate>Mon, 22 Jan 2024 14:39:47 -0800</pubDate>
+      <guid>https://andrewdeekim.github.io/posts/example/</guid>
+      <description></description>
     </item>
     <item>
       <title>About</title>
