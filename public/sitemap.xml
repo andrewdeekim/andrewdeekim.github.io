@@ -2,10 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://andrewdeekim.github.io/projects/cyclistic-case-study/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://andrewdeekim.github.io/projects/bikeshare-in-chicago-case-study/</loc>
+    <lastmod>2023-10-27T18:08:42-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://andrewdeekim.github.io/</loc>
+    <lastmod>2024-01-22T14:39:47-08:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/posts/</loc>
+    <lastmod>2024-01-22T14:39:47-08:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/case-study/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/categories/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/dashboard/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/data-analytics/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/categories/data-analytics/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/data-visualization/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/github/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/google-workspace/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/projects/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/spreadsheets/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/sql/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/tableau/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/</loc>
+    <lastmod>2023-11-10T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/tags/r/</loc>
+    <lastmod>2023-10-27T18:08:42-04:00</lastmod>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/about/</loc>
+  </url><url>
+    <loc>https://andrewdeekim.github.io/contact/</loc>
   </url>
 </urlset>

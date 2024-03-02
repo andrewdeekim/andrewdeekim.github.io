@@ -1,11 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://andrewdeekim.github.io/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 18:08:42 -0400</lastBuildDate>
+    <atom:link href="https://andrewdeekim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Study</title>
+      <link>https://andrewdeekim.github.io/tags/case-study/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/case-study/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dashboard</title>
+      <link>https://andrewdeekim.github.io/tags/dashboard/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analytics</title>
+      <link>https://andrewdeekim.github.io/tags/data-analytics/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/data-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Visualization</title>
+      <link>https://andrewdeekim.github.io/tags/data-visualization/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>https://andrewdeekim.github.io/tags/github/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Workspace</title>
+      <link>https://andrewdeekim.github.io/tags/google-workspace/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/google-workspace/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spreadsheets</title>
+      <link>https://andrewdeekim.github.io/tags/spreadsheets/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/spreadsheets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://andrewdeekim.github.io/tags/sql/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tableau</title>
+      <link>https://andrewdeekim.github.io/tags/tableau/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/tableau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>https://andrewdeekim.github.io/tags/r/</link>
+      <pubDate>Fri, 27 Oct 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/tags/r/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

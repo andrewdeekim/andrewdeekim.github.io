@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://andrewdeekim.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jan 2024 14:39:47 -0800</lastBuildDate>
+    <atom:link href="https://andrewdeekim.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Golden Age of Video Games Using Spreadsheets, SQL and Tableau by Andrew Kim</title>
+      <link>https://andrewdeekim.github.io/projects/cyclistic-case-study/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/projects/cyclistic-case-study/</guid>
+      <description>data analytics, Spreadsheets, SQL, Tableau</description>
+    </item>
+    <item>
+      <title>Bike Share in Chicago Case Study Using R and Tableau</title>
+      <link>https://andrewdeekim.github.io/projects/bikeshare-in-chicago-case-study/</link>
+      <pubDate>Fri, 27 Oct 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/projects/bikeshare-in-chicago-case-study/</guid>
+      <description>data analytics, Spreadsheets, R, Tableau</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://andrewdeekim.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andrewdeekim.github.io/about/</guid>
+      <description>My name is Andrew. I am a data analyst with a background in computational mathematics, people operations, and project management.
+I have my B.S. in Computational Mathematics from UCLA.
+My Professional Data Analysis + Business Intelligence Certification from Google x Coursera
+My Associate Data Analyst Certifcate from DataCamp.
+I live in Los Angeles, CA.
+I enjoy telling stories through data and visualizations.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://andrewdeekim.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andrewdeekim.github.io/contact/</guid>
+      <description>Let&amp;rsquo;s connect!
+💻 LinkedIn 📧 Email 👨‍💻 GitHub </description>
+    </item>
   </channel>
 </rss>

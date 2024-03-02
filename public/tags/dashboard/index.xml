@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboard on My New Hugo Site</title>
+    <link>https://andrewdeekim.github.io/tags/dashboard/</link>
+    <description>Recent content in Dashboard on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Nov 2023 18:08:42 -0400</lastBuildDate>
+    <atom:link href="https://andrewdeekim.github.io/tags/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Golden Age of Video Games Using Spreadsheets, SQL and Tableau by Andrew Kim</title>
+      <link>https://andrewdeekim.github.io/projects/cyclistic-case-study/</link>
+      <pubDate>Fri, 10 Nov 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/projects/cyclistic-case-study/</guid>
+      <description>data analytics, Spreadsheets, SQL, Tableau</description>
+    </item>
+    <item>
+      <title>Bike Share in Chicago Case Study Using R and Tableau</title>
+      <link>https://andrewdeekim.github.io/projects/bikeshare-in-chicago-case-study/</link>
+      <pubDate>Fri, 27 Oct 2023 18:08:42 -0400</pubDate>
+      <guid>https://andrewdeekim.github.io/projects/bikeshare-in-chicago-case-study/</guid>
+      <description>data analytics, Spreadsheets, R, Tableau</description>
+    </item>
+  </channel>
+</rss>
