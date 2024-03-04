@@ -1,7 +1,7 @@
 ---
 title: The Golden Age of Video Games Using Spreadsheets, SQL and Tableau by Andrew Kim
 date: 2023-11-10T18:08:42-04:00
-draft: false
+draft: true
 description: data analytics, Spreadsheets, SQL, Tableau
 weight: 1
 slug: cyclistic-case-study
