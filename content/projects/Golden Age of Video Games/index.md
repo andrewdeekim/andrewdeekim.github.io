@@ -23,18 +23,20 @@ series:
 cover: 
   image: "banner.png"
   alt: "The Golden Age of Video Games Using Spreadsheets, SQL and Tableau by Andrew Kim"
-
+hideMeta: true
 ---
 
 In this case study, I analyze historical data from a Chicago based bike-share 
 company in order to identify trends in how their customers use bikes differently. 
 The main tools I use are spreadsheets, SQL and Tableau. Here are the highlights:  
 
-* <a href="https://public.tableau.com/views/CyclisticBikeshareinChicago/CyclisticBikeshareinChicago?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau Dashboard: Cyclistic Bikeshare in Chicago</a>  
 
-* <a href="https://docs.google.com/presentation/d/1UMcXHCZ_l0FzARZjquN1WIxwXBYqCKlVGRBrkmcf4jo/present?slide=id.p" target="_blank">Slides: Where Rubber Meets Road in Converting Casual Riders to Cyclistic Members</a>  
+* [Tableau Dashboard: Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank")
 
-* <a href="https://github.com/joeypetosa/cyclistic_cs" target="_blank">GitHub: Cyclistic Case Study Repository</a> 
+* [GitHub: Bike Share in Chicago Repository](https://github.com/andrewdeekim/bike-share-in-chicago)
+
+* [Slides: Navigating Speedy Success](https://docs.google.com/presentation/d/1eFg7z36HifSdGsDJuQC-b0w9eSGLmz2mKFWGHc-mPAM/edit?usp=share_link)
+
 
 A more in-depth breakdown of the case study scenario is included below, followed 
 by my full report.  
@@ -541,6 +543,8 @@ includes the following:
 * Supporting visualizations and key findings
 * Three recommendations based on my analysis
 
-<a href="https://docs.google.com/presentation/d/1UMcXHCZ_l0FzARZjquN1WIxwXBYqCKlVGRBrkmcf4jo/present?slide=id.p" target="_blank">Presentation: Where Rubber Meets Road in Converting Casual Riders to Cyclistic Members</a> 
 
-<a href="https://public.tableau.com/views/CyclisticBikeshareinChicago/CyclisticBikeshareinChicago?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau Dashboard: Cyclistic Bikeshare in Chicago</a>  
+* [Tableau Dashboard: Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank")
+
+
+* [Slides: Navigating Speedy Success](https://docs.google.com/presentation/d/1eFg7z36HifSdGsDJuQC-b0w9eSGLmz2mKFWGHc-mPAM/edit?usp=share_link)

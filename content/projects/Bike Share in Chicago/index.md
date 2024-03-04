@@ -23,9 +23,11 @@ series:
 cover: 
   image: "img/banner.png"
   alt: "Bike Share in Chicago Case Study Using Spreadsheets, R and Tableau by Andrew Kim"
+hideMeta: true
 
 ---
 In this case study for the Google Data Analytics Professional Certifice Capstone Project, I analyze historical bike trip data from a Chicao bike-share company, using R and create powerful visualizations using Tableau.
+
 
 * [Tableau Dashboard: Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank")
 

@@ -23,13 +23,13 @@ params:
   # author: ["Me", "You"] # multiple authors
     # Image displayed when posting site link on socials
   # For example, if you post the link to the site in Discord, this image will be displayed
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["apple-touch-icon.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -47,11 +47,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/apple-touch-icon.png"
 
   label:
     text: "Andrew Kim"
@@ -124,10 +124,10 @@ menu:
       name: Projects
       url: /projects/
       weight: 20
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 30
+    # - identifier: contact
+    #   name: Contact
+    #   url: /contact/
+    #   weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
