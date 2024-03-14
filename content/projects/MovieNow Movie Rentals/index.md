@@ -53,7 +53,7 @@ MovieNow is considering investing money in new movies. However, it is more expen
 The following questions will guide the executive stakeholders for decision making:
 
 * Do customers give better ratings to movies which were recently produced than to older ones? Is there a difference across countries?
-* What are the most popular genres?
+* Which genres are the best rated?
 * Who are the most popular actors?
 
 
@@ -92,14 +92,16 @@ I have saved a folder of the original data and made copies to manipulate for my 
 ### SQL in Google BigQuery: Initial Set Up  
 First, I created a dataset called MovieNow. Then, I uploaded each individual CSV file as a table labeled the same name as the file.
 ![BigQuery Setup](img/bigquery_setup.png)
+<br>
 
 ***
 
 ## ANALYZE: 
 
-## Do Later Release Dates Yield Higher Ratings?
+## Q1: Do Later Release Dates Yield Higher Ratings?
 
 ### Exploring the head data
+We explore the first 5 rows of the tables:
 {{< github-code-snippets 035ee6bb456fbf63b88987f1b872346b >}}
 
 
@@ -107,11 +109,15 @@ First, I created a dataset called MovieNow. Then, I uploaded each individual CSV
 * `renting`: records of movie rentals with ratings
 * `customers`: information about the country of the customer
 * `movies`: information about the country of the customer
+
+We join the 3 related tables together:
 {{< github-code-snippets df5c5373c1154f0c38a9472d3e996f10 >}}
 
 ### Select relevant records
 * Use only records of movies with at least 4 ratings
 * Use only records of movies rentals since 2018-04-01
+
+We limit the query for this conditions below:
 {{< github-code-snippets 584d091ff0ef7a73121d0c2ae55e1a96 >}}
 
 
@@ -125,6 +131,8 @@ Levels of Aggregation:
 * Total aggregation
 * For movies by year of release
 * For movies by year of release separately for the country of the customers
+
+We use the ROLLUP extension of the GROUP BY clause to perform analysis on year of release and country: 
 {{< github-code-snippets e9f40c4d8a1f71acd6c1dd49967abe5a >}}
 
 We see the results of the last few summary rows below:
@@ -134,29 +142,54 @@ We see the results of the last few summary rows below:
 > ### INSIGHT: Intuitively, we see there is no clear pattern of movies with a later release having better ratings
 
 
-## Which are the best rated genres?
-
+## Q2: Which genres are the best rated?
+We use the following SQL query below to find the average rating, the number of ratings, the number of movie rentals, and the number of distinct movies:
 {{< github-code-snippets 33d8ef5a314747af8468811bae9eff38 >}}
 
 We see the results of the last few summary rows below:
 ![YOR x Country Results](img/genre_trends.png)
 
 > ### INSIGHT #1: Action & Adventure was the most popular with an average rating of 8.71, followed by Art House & International with 8.5. 
+<br>
+
 > ### INSIGHT #2: Drama has a significantly higher number of rentals with a lower average rating of 7.75.
 
-## Who are the most popular actors?
+## Q3: Who are the most popular actors?
+
+We use the following query below to see each combination of the following:
+* actors' nationality
+* gender
+* average rating
+* number of ratings
+* movie rentals
+* number of actors
+
+<br>
 
 {{< github-code-snippets e41f1f5782b33e8ccadf3d9eb9311143 >}}
 
-We see the results of the last few summary rows below:
-![YOR x Country Results](img/yor_country.png)
+<br>
 
-> ### INSIGHT: TBD
+We use the `GROUP BY CUBE` function to create an aggregation on the country and gender level represented in a pivot table.
 
+<br>
+
+As an example, we see the results of the CUBE grouping for Britain below:
+![YOR x Country Results](img/actors_country_trend.png)
+
+<br>
+
+We can see the highest ratings below:
+![YOR x Country Results](img/highest_rating_actors_country.png)
+
+> ### INSIGHT: Northern Ireland male actors and Italian female actresses have the highest ratings, though the number of ratings and rentals are quite low.
+
+
+An in-depth analysis is found in my presentation linked below.
 ***
 
 ## SHARE: Supporting Visualizations and Key Findings
-Lastly, we export the aggregate data for visualizations in Tableau:
+Lastly, we export the data for visualizations in Tableau
 
 
 
