@@ -1,10 +1,10 @@
 ---
-title: Bike Share in Chicago Case Study Using R and Tableau
+title: Bike Share in Chicago Analysis Using R and Tableau
 date: 2023-10-27T18:08:42-04:00
 draft: false
 description: data analytics, Spreadsheets, R, Tableau
 weight: 1
-slug: bikeshare-in-chicago-case-study
+slug: bikeshare-in-chicago
 categories:
   - Data Analytics
 tags:
@@ -22,11 +22,11 @@ series:
   - Data Analytics
 cover: 
   image: "img/banner.png"
-  alt: "Bike Share in Chicago Case Study Using Spreadsheets, R and Tableau by Andrew Kim"
+  alt: "Bike Share in Chicago Trend Analysis Using Spreadsheets, R and Tableau by Andrew Kim"
 hideMeta: true
 
 ---
-In this case study for the Google Data Analytics Professional Certifice Capstone Project, I analyze historical bike trip data from a Chicao bike-share company, using R and create powerful visualizations using Tableau.
+In this project, I analyze historical bike trip data from a Chicao bike-share company, using R and create powerful visualizations using Tableau.
 
 
 * [Tableau Dashboard: Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank")
@@ -36,7 +36,7 @@ In this case study for the Google Data Analytics Professional Certifice Capstone
 * [Slides: Navigating Speedy Success](https://docs.google.com/presentation/d/1eFg7z36HifSdGsDJuQC-b0w9eSGLmz2mKFWGHc-mPAM/edit?usp=share_link)
 
 
-A more in-depth breakdown of the case study scenario is included below, followed 
+A more in-depth breakdown of the scenario is included below, followed 
 by my full report.  
 <br>
 
@@ -105,7 +105,7 @@ There are no issues with bias or credibility as all personal identifiable inform
 * **Reliable and Original**: the data is both reliable and original as it is primary source data.
 * **Comprehensive**: the data has all of the relevant fields necessary for our historical analysis.
 * **Current**: the data is current as it is from the specific time frame we need 2022 and is updated monthly.
-* **Cited**: the data is cited as it is verified as a primary souce.
+* **Cited**: the data is cited as it is verified as a primary source.
 I have saved a folder of the original data and made copies to manipulate for my analysis.
 
 
