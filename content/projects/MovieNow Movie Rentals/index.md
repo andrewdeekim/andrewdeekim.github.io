@@ -33,7 +33,7 @@ In this project, I analyze historical data from an online movie rental company i
 
 <!-- * [Tableau Dashboard: ???Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank") -->
 
-* [GitHub: MovieNow Rental Analysis Repository](https://github.com/andrewdeekim/bike-share-in-chicago)
+* [GitHub: MovieNow Rental Analysis Repository](https://github.com/andrewdeekim/movie-now)
 
 <!-- * [Slides: ???Navigating Speedy Success](https://docs.google.com/presentation/d/1eFg7z36HifSdGsDJuQC-b0w9eSGLmz2mKFWGHc-mPAM/edit?usp=share_link) -->
 
@@ -209,6 +209,6 @@ includes the following:
 
 <!-- [Tableau Dashboard: Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank") -->
 
-[GitHub: MovieNow Rental Analysis Repository](https://github.com/andrewdeekim/bike-share-in-chicago)
+[GitHub: MovieNow Rental Analysis Repository](https://github.com/andrewdeekim/movie-now)
 
 <!-- [Slides: Navigating Speedy Success](https://docs.google.com/presentation/d/1eFg7z36HifSdGsDJuQC-b0w9eSGLmz2mKFWGHc-mPAM/edit?usp=share_link) -->
