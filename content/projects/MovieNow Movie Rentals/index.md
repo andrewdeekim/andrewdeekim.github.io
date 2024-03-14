@@ -1,6 +1,6 @@
 ---
 title: MovieNow Rental Analysis Using SQL(BigQuery) and Tableau
-date: 2023-11-10T18:08:42-04:00
+date: 2023-09-10T18:08:42-04:00
 draft: false
 description: data analytics, Spreadsheets, SQL, BigQuery, Tableau
 weight: 1
