@@ -43,7 +43,7 @@ A more in-depth breakdown of the scenario is included below, followed by my full
 
 
 ### Scenario
-MovieNow is considering investing money in new movies. However, it is more expensive for MovieNow to make movies avaiable which were recently produced than older ones.
+MovieNow is considering investing money in new movies. However, it is more expensive for MovieNow to make movies available which were recently produced than older ones.
 
 <br>
 
