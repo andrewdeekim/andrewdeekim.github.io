@@ -189,7 +189,7 @@ An in-depth analysis is found in my presentation linked below.
 ***
 
 ## SHARE: Supporting Visualizations and Key Findings
-Lastly, we export the data for visualizations in Tableau. While we can combine the 5 related tables in BigQuery and export the results as a CSV file, I chose to individually uplaod each file to Tableau to demonstrate my knowledge of utilizing its connection funtionality:
+Lastly, we export the data for visualizations in Tableau. While we can combine the 5 related tables in BigQuery and export the results as a CSV file, I chose to individually upload each file to Tableau to demonstrate my knowledge of utilizing its connection funtionality:
 
 ![Tableau Data Connections Diagram](img/tableau_connections.png)
 
