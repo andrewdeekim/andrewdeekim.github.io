@@ -1,6 +1,6 @@
 ---
 title: MovieNow Rental Analysis Using SQL(BigQuery) and Tableau
-date: 2023-09-10T18:08:42-04:00
+date: 2023-11-10T18:08:42-04:00
 draft: false
 description: data analytics, Spreadsheets, SQL, BigQuery, Tableau
 weight: 1
@@ -31,11 +31,11 @@ hideMeta: true
 In this project, I analyze historical data from an online movie rental company in order to identify trends in customer preferences, engagement, and sales development. This highlights skills in SQL (PostgreSQL in BigQuery) like aggregate functions, joins, subqueries, OLAP, Common Table Expressions (CTE) and Window Functions. The main tools I use are SQL in Google BigQuery and Tableau. Here are the highlights:  
 
 
-<!-- * [Tableau Dashboard: ???Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank") -->
+* [Tableau Dashboard: MovieNow Rental Analysis](https://public.tableau.com/shared/TW9BWQQ5W?:display_count=n&:origin=viz_share_link)
 
 * [GitHub: MovieNow Rental Analysis Repository](https://github.com/andrewdeekim/movie-now)
 
-<!-- * [Slides: ???Navigating Speedy Success](https://docs.google.com/presentation/d/1eFg7z36HifSdGsDJuQC-b0w9eSGLmz2mKFWGHc-mPAM/edit?usp=share_link) -->
+* [Slides: MovieNow Rental Analysis](https://docs.google.com/presentation/d/e/2PACX-1vQJcFdNxcg-9ULzM0Rv3RmmJME12Q16q_jfcMqPpizal7DgSCI3rG1yDPj8R9rJBkECA87AJcJpz-tj/pub?start=false&loop=false&delayms=3000)
 
 
 A more in-depth breakdown of the scenario is included below, followed by my full report.  
@@ -63,7 +63,7 @@ The following questions will guide the executive stakeholders for decision makin
 
 ## PREPARE: Data sources
 
-We used historical bike trip data from 5 related tables from the DataCamp assets server. We downloaed the following CSV files:
+We used historical bike trip data from 5 related tables from the DataCamp assets server. We downloaded the following CSV files:
 
 
     1)  actors.csv
@@ -175,12 +175,12 @@ We use the `GROUP BY CUBE` function to create an aggregation on the country and 
 <br>
 
 As an example, we see the results of the CUBE grouping for Britain below:
-![YOR x Country Results](img/actors_country_trend.png)
+![Actors x Country Results](img/actors_country_trend.png)
 
 <br>
 
 We can see the highest ratings below:
-![YOR x Country Results](img/highest_rating_actors_country.png)
+![Rating x Actors x Country Results](img/highest_rating_actors_country.png)
 
 > ### INSIGHT: Northern Ireland male actors and Italian female actresses have the highest ratings, though the number of ratings and rentals are quite low.
 
@@ -189,8 +189,9 @@ An in-depth analysis is found in my presentation linked below.
 ***
 
 ## SHARE: Supporting Visualizations and Key Findings
-Lastly, we export the data for visualizations in Tableau
+Lastly, we export the data for visualizations in Tableau. While we can combine the 5 related tables in BigQuery and export the results as a CSV file, I chose to individually uplaod each file to Tableau to demonstrate my knowledge of utilizing its connection funtionality:
 
+![Tableau Data Connections Diagram](img/tableau_connections.png)
 
 
 
@@ -207,8 +208,10 @@ includes the following:
 * Supporting visualizations and key findings
 * Three recommendations based on my analysis
 
-<!-- [Tableau Dashboard: Bikeshare in Chicago](https://public.tableau.com/app/profile/andrewdeekim/viz/BikeshareinChicago/BikeshareinChicago"target="_blank") -->
+
+[Tableau Dashboard: MovieNow Rental Analysis](https://public.tableau.com/shared/TW9BWQQ5W?:display_count=n&:origin=viz_share_link)
 
 [GitHub: MovieNow Rental Analysis Repository](https://github.com/andrewdeekim/movie-now)
 
-<!-- [Slides: Navigating Speedy Success](https://docs.google.com/presentation/d/1eFg7z36HifSdGsDJuQC-b0w9eSGLmz2mKFWGHc-mPAM/edit?usp=share_link) -->
+[Slides: MovieNow Rental Analysis](https://docs.google.com/presentation/d/e/2PACX-1vQJcFdNxcg-9ULzM0Rv3RmmJME12Q16q_jfcMqPpizal7DgSCI3rG1yDPj8R9rJBkECA87AJcJpz-tj/pub?start=false&loop=false&delayms=3000)
+
