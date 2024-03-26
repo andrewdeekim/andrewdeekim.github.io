@@ -193,7 +193,8 @@ Lastly, we export the data for visualizations in Tableau. While we can combine t
 
 ![Tableau Data Connections Diagram](img/tableau_connections.png)
 
-
+Image of the dashboard is below:
+![MovieNow Tableau Dashboard](img/movieNow_dashboard.png)
 
 ***
 
