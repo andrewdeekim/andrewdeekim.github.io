@@ -114,8 +114,8 @@ We join the 3 related tables together:
 {{< github-code-snippets df5c5373c1154f0c38a9472d3e996f10 >}}
 
 ### Select relevant records
-* Use only records of movies with at least 4 ratings
-* Use only records of movies rentals since 2018-04-01
+* Use only records of movies with at least 4 ratings. This is to prevent skewed data.
+* Use only records of movies rentals since 2018-04-01. This is simply to examine more recent data.
 
 We limit the query for this conditions below:
 {{< github-code-snippets 584d091ff0ef7a73121d0c2ae55e1a96 >}}
@@ -193,7 +193,11 @@ Lastly, we export the data for visualizations in Tableau. While we can combine t
 
 ![Tableau Data Connections Diagram](img/tableau_connections.png)
 
-Image of the dashboard is below:
+Image of the dashboard is below, which includes:
+* All rental data from 2017-2019
+* Breakdown by country
+* Dynamic visualizations based on calculated fields chosen through the filter options
+
 ![MovieNow Tableau Dashboard](img/movieNow_dashboard.png)
 
 ***
